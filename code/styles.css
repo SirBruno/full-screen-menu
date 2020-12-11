@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+/* HEADER */
+
+.header {
+  border: 2px solid #000;
+}
+
+.headerInner {
+  display: flex;
+  max-width: 1100px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.headerInner div {
+  padding: 15px 0;
+}
+
+.navigation {
+  margin: 0 auto;
+}
+
+.navigation span {
+  padding: 0 20px;
+}
+
+/* HERO */
+
+.hero {
+  border: 2px solid #000;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.heroInner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.heroText {
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.heroButton {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.heroButton span {
+  color: #fff;
+  background: #000;
+  margin: 0 auto;
+  padding: 12px 20px;
+  border-radius: 3px;
+  margin: 0 auto;
+}
+
+.section {
+  border: 2px solid #000;
+}
+
+.sectionInner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.footer {
+  border: 2px solid #000;
+}
+
+.footerInner {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#menuIcon {
+  font-size: 24px;
+  opacity: .5;
+  transition: .2s;
+}
+
+#menuIcon:hover {
+  opacity: 1;
+  transition: .2s;
+  cursor: pointer;
+}
+
+/* FULL SCREEN MENU */
+#fullScreenMenuContainer {
+  position: fixed;
+  background: #111;
+  color: #fff;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.fullScreenMenu {
+  display: grid;
+  grid-row-gap: 15px;
+}
+
+.fullScreenMenu span {
+  font-size: 30px;
+  opacity: .4;
+  transition: .2s;
+  border-bottom: 2px solid transparent;
+}
+
+.fullScreenMenu span:hover {
+  opacity: 1;
+  border-bottom: 2px solid #fff;
+  transition: .2s;
+  cursor: pointer;
+}
+
+#menuClose {
+  position: fixed;
+  right: 0;
+  margin: 30px 30px 0 0;
+  font-size: 30px;
+  opacity: .4;
+  transition: .2s;
+}
+
+#menuClose:hover {
+  opacity: 1;
+  cursor: pointer;
+  transition: .2s;
+}
+
+/* body {
+  overflow: hidden;
+} */
